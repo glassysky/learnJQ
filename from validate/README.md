@@ -1,5 +1,5 @@
 ﻿## 表单验证
-input标签规则
+1. input标签规则
 ```html
 <input type="" name="" (required="required")>
 ```
@@ -23,7 +23,7 @@ input标签规则
 | 个人简介        | text            | intro       |
 | 验证码          | text            | code        |
 
-select标签规则
+2.select标签规则
 ```html
 <select name="" (required="required")>
   ...
@@ -49,7 +49,7 @@ select标签规则
 | 情感状态        | status      |
 | 证件类型        | papers      |
 
-textarea标签规则
+3.textarea标签规则
 ```html
 <textarea (required)>
 ```
