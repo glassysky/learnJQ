@@ -23,7 +23,7 @@
 | 个人简介        | text            | intro       |
 | 验证码          | text            | code        |
 
-2.select标签规则
+2. select标签规则
 ```html
 <select name="" (required="required")>
   ...
@@ -49,7 +49,7 @@
 | 情感状态        | status      |
 | 证件类型        | papers      |
 
-3.textarea标签规则
+3. textarea标签规则
 ```html
 <textarea (required)>
 ```
