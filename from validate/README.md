@@ -1,33 +1,43 @@
 ﻿## 表单验证
 input标签规则
 ```html
-<input type="value1" name="value2">
+<input type="" name="" (required="required")>
 ```
 | 内容            | value           | name     |
 | ----------------|:---------------:| --------:|
 | 姓名            | text            | name     |
 | 昵称            | text            | nickname |
-| 性别            | radio           | sex |
-| 学校（名称）    | are neat      |    $1 |
-| 院系            | are neat      |    $1 |
-| 专业            | are neat      |    $1 |
-| 公司名称        | are neat      |    $1 |
-| 大段文本输入    | are neat      |    $1 |
+| 性别            | radio           | sex      |
+| 学校（名称）    | text            | school   |
+| 院系            | text            | college  |
+| 专业            | text            | major    |  
+| 公司名称        | text            | company  |
 
-| 内容            | value           | name     |
-| ----------------|:---------------:| --------:|
-| 家乡（省）      | are neat      |    $1 |
-| 家乡（市）      | are neat      |    $1 |
-| 所在地（省）    | are neat      |    $1 |
-| 所在地（市）    | are neat      |    $1 |
-| 生日（年）      | are neat      |    $1 |
-| 生日（月）      | are neat      |    $1 |
-| 生日（日）      | are neat      |    $1 |
-| 学校（入学年份）| are neat      |    $1 |
-| 行业            | are neat      |    $1 |
-| 职位            | are neat      |    $1 |
-| 工作时间始（年）| are neat      |    $1 |
-| 工作时间始（月）| are neat      |    $1 |
-| 工作时间末（年) | are neat      |    $1 |
-| 工作时间末（月) | are neat      |    $1 |
-| 情感状态        | are neat      |    $1 |
+select标签规则
+```html
+<select name="" (required="required")>
+  ...
+</select>
+```
+| 内容            | name        |
+| ----------------| -----------:|
+| 家乡（省）      | hometown-P  |
+| 家乡（市）      | hometown-C  |
+| 所在地（省）    | nowAt-P     |
+| 所在地（市）    | nowAt-C     |
+| 生日（年）      | birth-Y     |
+| 生日（月）      | birth-M     |
+| 生日（日）      | birth-D     |
+| 学校（入学年份）| enter-Y     |
+| 行业            | profession  |
+| 职位            | possition   |
+| 工作时间始（年）| begin-Y     |
+| 工作时间始（月）| begin-M     |
+| 工作时间末（年) | end-Y       |
+| 工作时间末（月) | end-M       |
+| 情感状态        | status      |
+
+textarea标签规则
+```html
+<textarea required>
+```
