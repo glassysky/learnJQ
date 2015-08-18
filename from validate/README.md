@@ -39,5 +39,5 @@ select标签规则
 
 textarea标签规则
 ```html
-<textarea required>
+<textarea (required)>
 ```
