@@ -3,25 +3,25 @@
 ```html
 <input type="" name="" (required="required")>
 ```
-| 内容            | value           | name        |
-| ----------------|:---------------:| -----------:|
-| 姓名            | text            | name        |
-| 昵称            | text            | nickname    |
-| 性别            | radio           | sex         |
-| 学校（名称）    | text            | school      |
-| 院系            | text            | college     |
-| 专业            | text            | major       |  
-| 公司名称        | text            | company     |
-| 个性签名        | text            | motto       |
-| 邮箱            | email           | email       |
-| 用户名          | text            | username    |
-| 密码            | password        | prepass     |
-| 新密码          | password        | newpass     |
-| 确认密码        | password        | confirmpass |
-| 手机号          | tel             | tel         |
-| 从事职业        | text            | work        |
-| 个人简介        | text            | intro       |
-| 验证码          | text            | code        |
+| 内容            | value           | name        | regex   |
+| ----------------|:---------------:| -----------:| -------:|
+| 姓名            | text            | name        | |
+| 昵称            | text            | nickname    | |
+| 性别            | radio           | sex         | |
+| 学校（名称）    | text            | school      | |
+| 院系            | text            | college     | |
+| 专业            | text            | major       |  | 
+| 公司名称        | text            | company     | |
+| 个性签名        | text            | motto       | |
+| 邮箱            | email           | email       | /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/ |
+| 用户名          | text            | username    | |
+| 密码            | password        | prepass     | |
+| 新密码          | password        | newpass     | |
+| 确认密码        | password        | confirmpass | |
+| 手机号          | tel             | tel         | |
+| 从事职业        | text            | work        | |
+| 个人简介        | text            | intro       | |
+| 验证码          | text            | code        | |
 
 ###2.select标签规则
 ```html
