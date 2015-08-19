@@ -27,7 +27,7 @@
 ###2.select标签规则
 ```html
 <select name="" (required="required")>
-  ...
+  <option value="pretext">...</option>
 </select>
 ```
 | 内容            | name        |
