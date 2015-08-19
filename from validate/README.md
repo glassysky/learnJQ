@@ -22,6 +22,7 @@
 | 从事职业        | text            | work        |
 | 个人简介        | text            | intro       |
 | 验证码          | text            | code        |
+| 证件号          | text            | idcard      |
 
 ###2.select标签规则
 ```html
