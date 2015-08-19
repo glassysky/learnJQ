@@ -13,7 +13,7 @@
 | 专业            | text            | major       |  | 
 | 公司名称        | text            | company     | |
 | 个性签名        | text            | motto       | |
-| 邮箱            | email           | email       | /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/ |
+| 邮箱            | email           | email       |/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/|
 | 用户名          | text            | username    | |
 | 密码            | password        | prepass     | |
 | 新密码          | password        | newpass     | |
