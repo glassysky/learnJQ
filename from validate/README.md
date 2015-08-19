@@ -3,7 +3,7 @@
 ```html
 <input type="" name="" (required="required")>
 ```
-| 内容            | value           | name        |
+| 内容            | type           | name        |
 | ----------------|:---------------:| -----------:|
 | 姓名            | text            | name        |
 | 昵称            | text            | nickname    |
