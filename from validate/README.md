@@ -1,4 +1,15 @@
 ## 表单验证
+
+###引用方式
+```html
+<script src="js/jquery.js"></script>
+<script src="js/jquery.form.js"></script>
+```
+```html
+<script>
+$("表单目录").formcheck();
+</script>
+```
 ###1.input标签规则
 ```html
 <input type="" name="" (required="required")>
