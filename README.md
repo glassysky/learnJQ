@@ -33,3 +33,5 @@
   - 作用：管理Cookie
 6. [jQuery UI](http://jqueryui.com/)
   - 作用：提供设计好的UI
+7. [Nivo Slider](https://github.com/gilbitron/Nivo-Slider)
+  - 作用：各种轮播图
